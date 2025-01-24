@@ -34,7 +34,7 @@ public class MainScreenManager : MonoBehaviour
     public void StartGame()
     {
         // Debug.Log("Prueba de press");
-        SceneManager.LoadScene("HowToPlay");
+        SceneManager.LoadScene("TestGameScene");
     }
 
     public void StartLevel()

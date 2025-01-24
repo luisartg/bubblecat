@@ -17,7 +17,7 @@ public class InGameScreensController : MonoBehaviour
         Time.timeScale = 1f;
         pauseScreen.SetActive(false);
         // loseScreen.SetActive(false);
-        // winScreen.SetActive(false);
+        winScreen.SetActive(false);
     }
 
     // Update is called once per frame
