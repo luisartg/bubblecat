@@ -12,14 +12,14 @@ public class MainScreenManager : MonoBehaviour
 
     private void Awake()
     {
-        AudioManager.Instance.PlayMusic("menu");
     }
 
     void Start()
     {
-        panelMenu.SetActive(true);
+        AudioManager.Instance.PlayMusic("menu");
         panelCredits.SetActive(false);
-        panelOptions.SetActive(false);
+        // panelOptions.SetActive(false);
+        panelMenu.SetActive(true);
     }
 
     #region Update
