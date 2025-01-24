@@ -13,6 +13,7 @@ public class InGameScreensController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        AudioManager.Instance.PlayMusic("Mu_Niv1");
         Debug.Log("Game Started");
         Time.timeScale = 1f;
         pauseScreen.SetActive(false);
