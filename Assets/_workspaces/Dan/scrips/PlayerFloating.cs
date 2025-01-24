@@ -17,12 +17,15 @@ public class PlayerFloating : MonoBehaviour
     private float sKeyCooldownTimer = 0f; // Timer to track cooldown after using the S key
     private Rigidbody2D rb;
 
+    [SerializeField]
+    private BCatAnimation catAnim;
+
     private bool speedUpActive = false;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-       
+        catAnim = GetComponentInChildren<BCatAnimation>();
     }
 
     private void FixedUpdate()
@@ -127,6 +130,20 @@ public class PlayerFloating : MonoBehaviour
     {
         float moveX = Input.GetAxis("Horizontal");
         rb.AddForce(new Vector2(moveX * moveSpeed, 0));
+
+        //Animation
+        if (moveX > 0)
+        {
+            catAnim.GoRight();
+        }
+        else if (moveX < 0)
+        {
+            catAnim.GoLeft();
+        }
+        else
+        {
+            catAnim.Idle();
+        }
     }
 
     //LuisArt - TODO: Esto se puede hacer con una corutina
