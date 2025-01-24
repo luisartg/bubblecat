@@ -2937,6 +2937,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4575793331432787090, guid: 4a39372cc0253114c96a2b1d2b3f379f, type: 3}
+      propertyPath: speedBreak
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575793331432787090, guid: 4a39372cc0253114c96a2b1d2b3f379f, type: 3}
       propertyPath: sKeyCooldown
       value: 1
       objectReference: {fileID: 0}
