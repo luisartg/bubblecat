@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      G_ParpadeandoSinBurbuja 64X32_0: 8623048460266511727
+      G_ParpadeandoSinBurbuja 64X32_1: -7622103463150891049
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
