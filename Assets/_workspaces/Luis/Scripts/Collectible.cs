@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class Collectible : MonoBehaviour
 {
+    private CollectibleCounter counterRef;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        counterRef = FindFirstObjectByType<CollectibleCounter>();
+        counterRef.RegisterCollectible();
     }
 
     // Update is called once per frame
@@ -22,7 +25,8 @@ public class Collectible : MonoBehaviour
 
     private void AddCollectible()
     {
-        //Add to count - TODO
+        counterRef.ItemCollected();
+
         GetComponent<Collider2D>().enabled = false;
         GetComponent<SpriteRenderer>().enabled = false;
         GetComponent<ParticleSystem>().Play();
