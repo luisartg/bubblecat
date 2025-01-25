@@ -120,6 +120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 212572388352026403}
   - component: {fileID: 7003132282942330480}
+  - component: {fileID: 6330688395683564013}
   m_Layer: 0
   m_Name: BeeEnemy
   m_TagString: Untagged
@@ -179,3 +180,15 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: -0.17525494, y: -0.03608203}
   m_Radius: 0.25773585
+--- !u!114 &6330688395683564013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7665529949659910905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15f1798771ba58e45a2aecf4342847f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

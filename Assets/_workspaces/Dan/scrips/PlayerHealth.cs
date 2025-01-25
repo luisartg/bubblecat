@@ -34,4 +34,9 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = maxHealth;
         
     }
+
+    public void SetNewStartPosition(Vector3 newPos)
+    {
+        startPosition = newPos;
+    }
 }
