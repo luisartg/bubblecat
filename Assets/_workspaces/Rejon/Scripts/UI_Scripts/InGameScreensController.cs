@@ -45,7 +45,7 @@ public class InGameScreensController : MonoBehaviour
         if (pauseScreen.activeInHierarchy)
         {
             Time.timeScale = 1f;
-            pauseScreen.SetActive(false);
+            StartCoroutine(PauseOff());
         }
         else
         {
@@ -54,11 +54,25 @@ public class InGameScreensController : MonoBehaviour
         }
     }
 
+    IEnumerator PauseOff()
+    {
+        yield return new WaitForSeconds(1.1f);
+        AudioManager.Instance.PlaySFX("pop high");
+        pauseScreen.SetActive(false);
+    }
+
     public void PlayAgain()
     {
         // SceneManager.LoadScene("InGameLevel");
-        Application.LoadLevel(Application.loadedLevel);
+        AudioManager.Instance.PlaySFX("pop low");
+        // Application.LoadLevel(Application.loadedLevel);
+        StartCoroutine(PlayAgainAfterSecond());
 
+    }
+    IEnumerator PlayAgainAfterSecond()
+    {
+        yield return new WaitForSeconds(1.1f);
+        Application.LoadLevel(Application.loadedLevel);
     }
 
     public void ToggleOptions()
@@ -68,6 +82,12 @@ public class InGameScreensController : MonoBehaviour
 
     public void ExitGame()
     {
+        AudioManager.Instance.PlaySFX("pop high");
+        StartCoroutine(LoadExitGame());
+    }
+    IEnumerator LoadExitGame()
+    {
+        yield return new WaitForSeconds(1.1f);
         SceneManager.LoadScene("Main Menu");
     }
 
