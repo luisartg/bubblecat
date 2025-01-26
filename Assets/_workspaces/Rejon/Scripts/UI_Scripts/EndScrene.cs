@@ -13,11 +13,14 @@ public class EndScrene : MonoBehaviour
     public Image scoreImage;
     public TMPro.TextMeshProUGUI scoreText;
     private bool nextKeyToTitle = false;
+    private CollectibleCounter collectibleCounter;
+    public GameObject container;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        collectibleCounter = FindFirstObjectByType<CollectibleCounter>();
         // animator[0] = gameObjects[0].GetComponent<Animator>();
         // animator[1] = gameObjects[1].GetComponent<Animator>();
         // animator[2] = gameObjects[2].GetComponent<Animator>();
@@ -26,19 +29,20 @@ public class EndScrene : MonoBehaviour
             go.SetActive(false);
         }
         ActivatePanel(currentPanel);
+        container.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        nextKeyToTitle = false;
-
+        
         if (Input.anyKeyDown)
         {
             currentPanel++;
             if (nextKeyToTitle)
             {
-                SceneManager.LoadScene("TitleScreen");
+                Destroy(collectibleCounter.gameObject);
+                SceneManager.LoadScene("Main Menu");
             }
             if (currentPanel >= gameObjects.Length)
             {
@@ -99,6 +103,10 @@ public class EndScrene : MonoBehaviour
     void ShowScore()
     {
         nextKeyToTitle = true;
+        dialogueText.gameObject.SetActive(false);
+        // scoreImage.gameObject.SetActive(true);
+        container.SetActive(true);
+        scoreText.text = $"Score: {collectibleCounter.GetCollectedNumber()} / {collectibleCounter.GetTotalCollectibles()}";
     }
 
     public void DeactivatePanel(int index)
