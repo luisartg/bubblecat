@@ -3,12 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MainScreenManager : MonoBehaviour
 {
     [SerializeField] private GameObject panelMenu;
     [SerializeField] private GameObject panelCredits;
     [SerializeField] private GameObject panelOptions;
+    [SerializeField] private Button StartButton;
+
 
     private string gameScene = "Level01";
 
@@ -36,6 +39,7 @@ public class MainScreenManager : MonoBehaviour
     public void StartGame()
     {
         // Debug.Log("Prueba de press");
+        StartButton.interactable = false;
         PlaySound("pop high");
         // AudioManager.Instance.PlaySFX("pop high");
         StartCoroutine(LoadSceneAfterSecond());
@@ -43,7 +47,7 @@ public class MainScreenManager : MonoBehaviour
 
     IEnumerator LoadSceneAfterSecond()
     {
-        yield return new WaitForSeconds(1.1f);
+        yield return new WaitForSeconds(0.5f);
         SceneManager.LoadScene(gameScene);
     }
 
@@ -63,13 +67,12 @@ public class MainScreenManager : MonoBehaviour
     public void ToggleCredits()
     {
         AudioManager.Instance.PlaySFX("pop high");
-        StartCoroutine(LoadCreditsAfterSecond());
+        LoadCredits();
     }
 
-      IEnumerator LoadCreditsAfterSecond()
+    private void LoadCredits()
     {
-        yield return new WaitForSeconds(1.1f);
-              SwitchMenuPanelState();
+        SwitchMenuPanelState();
         SwitchCreditsPanelState();
         Debug.Log("Show credits: " + panelCredits.activeInHierarchy);
     }
