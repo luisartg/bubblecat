@@ -34,7 +34,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: TriggerPanel2
+    m_ConditionEvent: StartAnimPanel
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2642744087579273345}
@@ -85,7 +85,7 @@ AnimatorController:
   m_Name: Panel2
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: TriggerPanel2
+  - m_Name: StartAnimPanel
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0

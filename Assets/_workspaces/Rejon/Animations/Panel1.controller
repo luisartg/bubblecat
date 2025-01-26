@@ -9,7 +9,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: StartAnimation
+    m_ConditionEvent: StartAnimPanel
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4517523817578146080}
@@ -60,7 +60,7 @@ AnimatorController:
   m_Name: Panel1
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: StartAnimation
+  - m_Name: StartAnimPanel
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
