@@ -30,6 +30,7 @@ public class Collectible : MonoBehaviour
         GetComponent<Collider2D>().enabled = false;
         GetComponent<SpriteRenderer>().enabled = false;
         GetComponent<ParticleSystem>().Play();
+        GetComponent<AudioSource>().Play();
         StartCoroutine(KillAfterSeconds());
     }
 
