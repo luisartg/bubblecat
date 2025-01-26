@@ -445,7 +445,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 991069441011675367, guid: 8a7170b5a6de6d14cad1a4b79f1a15f2, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 1640
       objectReference: {fileID: 0}
     - target: {fileID: 991069441011675367, guid: 8a7170b5a6de6d14cad1a4b79f1a15f2, type: 3}
       propertyPath: m_SizeDelta.y
@@ -453,7 +453,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 991069441011675367, guid: 8a7170b5a6de6d14cad1a4b79f1a15f2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 820
       objectReference: {fileID: 0}
     - target: {fileID: 991069441011675367, guid: 8a7170b5a6de6d14cad1a4b79f1a15f2, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -575,15 +575,40 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6264463027300114179, guid: 8a7170b5a6de6d14cad1a4b79f1a15f2, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -280
+      objectReference: {fileID: 0}
+    - target: {fileID: 6264463027300114179, guid: 8a7170b5a6de6d14cad1a4b79f1a15f2, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -306.8035
+      objectReference: {fileID: 0}
+    - target: {fileID: 6264463027300114179, guid: 8a7170b5a6de6d14cad1a4b79f1a15f2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6264463027300114179, guid: 8a7170b5a6de6d14cad1a4b79f1a15f2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -106.3457
+      objectReference: {fileID: 0}
     - target: {fileID: 7085481082295424590, guid: 8a7170b5a6de6d14cad1a4b79f1a15f2, type: 3}
       propertyPath: m_Color.a
       value: 0.98039216
       objectReference: {fileID: 0}
     - target: {fileID: 7126172757023272238, guid: 8a7170b5a6de6d14cad1a4b79f1a15f2, type: 3}
       propertyPath: m_text
-      value: "Luis - Director, Design and  Programming\r\nDan - Gameplay Programming
-        \r\nRejon - UI Programming  \r\nRichy - 2D Art, and Pixel Art \nDanny - 2D
-        Art, and Pixel Art\r\nRulomewsik - Music\r"
+      value: "Luis A. Guerra Garcia - Director, Design, Programming\r\nDaniel A.
+        Flores Rodriguez - Gameplay Programming \r\nEduardo R. Rejon Castillo - UI
+        Programming  \r\nRicardo Micael Jerez  - 2D Art, Pixel Art \nDaniela Cevallos
+        - 2D Art, Pixel Art\r\nRaul Vega - Music\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7126172757023272238, guid: 8a7170b5a6de6d14cad1a4b79f1a15f2, type: 3}
+      propertyPath: m_fontSize
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 7126172757023272238, guid: 8a7170b5a6de6d14cad1a4b79f1a15f2, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 7521012712433957028, guid: 8a7170b5a6de6d14cad1a4b79f1a15f2, type: 3}
       propertyPath: StartButton

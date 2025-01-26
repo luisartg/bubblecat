@@ -3,7 +3,7 @@ using UnityEngine;
 public class UICollectableCounter : MonoBehaviour
 {
     public TMPro.TextMeshProUGUI scoreText;
-    private int score = 0;
+    //private int score = 0;
     private CollectibleCounter collectibleCounter;
 
 

@@ -1,4 +1,3 @@
-using Microsoft.Unity.VisualStudio.Editor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,7 +9,6 @@ public class EndScrene : MonoBehaviour
     public string[] dialogues;
     public TMPro.TextMeshProUGUI dialogueText;
     int currentPanel = 0;
-    public Image scoreImage;
     public TMPro.TextMeshProUGUI scoreText;
     private bool nextKeyToTitle = false;
     private CollectibleCounter collectibleCounter;

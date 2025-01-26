@@ -61,19 +61,19 @@ public class InGameScreensController : MonoBehaviour
         pauseScreen.SetActive(false);
     }
 
-    public void PlayAgain()
-    {
-        // SceneManager.LoadScene("InGameLevel");
-        AudioManager.Instance.PlaySFX("pop low");
-        // Application.LoadLevel(Application.loadedLevel);
-        StartCoroutine(PlayAgainAfterSecond());
+    //public void PlayAgain()
+    //{
+    //    // SceneManager.LoadScene("InGameLevel");
+    //    AudioManager.Instance.PlaySFX("pop low");
+    //    // Application.LoadLevel(Application.loadedLevel);
+    //    StartCoroutine(PlayAgainAfterSecond());
 
-    }
-    IEnumerator PlayAgainAfterSecond()
-    {
-        yield return new WaitForSeconds(1.1f);
-        Application.LoadLevel(Application.loadedLevel);
-    }
+    //}
+    //IEnumerator PlayAgainAfterSecond()
+    //{
+    //    yield return new WaitForSeconds(1.1f);
+    //    Application.LoadLevel(Application.loadedLevel);
+    //}
 
     public void ToggleOptions()
     {
