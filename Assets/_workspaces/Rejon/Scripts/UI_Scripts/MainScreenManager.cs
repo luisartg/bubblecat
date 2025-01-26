@@ -10,7 +10,7 @@ public class MainScreenManager : MonoBehaviour
     [SerializeField] private GameObject panelCredits;
     [SerializeField] private GameObject panelOptions;
 
-    private string gameScene = "TestGameScene";
+    private string gameScene = "Level01";
 
     private void Awake()
     {

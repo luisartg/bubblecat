@@ -1,0 +1,1260 @@
+fileFormatVersion: 2
+guid: 8ea5b92340129a347a94843b1c173a03
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1716706808818818889
+    second: AnimacionCuadro2_LuisArt_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1020
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94fd3234fb7f2d710800000000000000
+      internalID: 1716706808818818889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_1
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1020
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba41e151861db9f42b8ba7d6c7a0b12a
+      internalID: -39662999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_2
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1020
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15c3bde2619a7a419ad4b14d330df6a
+      internalID: -1893915834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_3
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 1020
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4925ea0855bc64eb95e4c9df32ee65
+      internalID: 897048603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_4
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1020
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cd8aed8c45e474998c80f094357071
+      internalID: 82767415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_5
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 1020
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05dd11525ef91548a2f24eb4ebfc994
+      internalID: -442943512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_6
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 1020
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61bbd0bec641d374798d2f9569305dcb
+      internalID: -1438124369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 850
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b597eae6d4b1989448845d5f942f9c7d
+      internalID: 270027679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_8
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 850
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31103e1fafcb9c244ad1c289eade1282
+      internalID: 1064032391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_9
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 850
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462e5587e2e11b1449a4e2b6093d3d94
+      internalID: -1804170306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_10
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 850
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655adbec64ce7314d807195899bb4e32
+      internalID: -96094168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_11
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 850
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca8619e0cabb4643ae0afe20636df50
+      internalID: 1181307047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_12
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 850
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91ec4de29136ef429f605e2494c9e16
+      internalID: -1154374850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_13
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 850
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1e4bee8fb2bb24ea020a0406db769b
+      internalID: 1944575814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 680
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7b6a3c77b02084da04b56d1636d421
+      internalID: 1666731084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_15
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 680
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16f20e61c7a0e4448ce4862b0106b52
+      internalID: 337613538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_16
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 680
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c942011071eee47bd5f3b12cab8f2e
+      internalID: -286526951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_17
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 680
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7bef5be8b915949b6823eafb808d45
+      internalID: 1486476752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_18
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 680
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195d668819615d8448c831531a57b842
+      internalID: 1638179289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_19
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 680
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecca1dd197f303041a5003a6a512ba2b
+      internalID: -2078001888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_20
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 680
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab35f8b833edce47af37004788807a2
+      internalID: -346710443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 510
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3484af06201b4f2469a89e3b94aeb9af
+      internalID: -1577801598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_22
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 510
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32899b0ae051b2944aa106f0ede87961
+      internalID: -1731523581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_23
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 510
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9a5358052652443a3621fa17b838c1
+      internalID: -12278179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_24
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 510
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b2692b2df92484bbed7bc8c3dc8783
+      internalID: 222528185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_25
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 510
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad5949f97fd65b488399db4fdf48ade
+      internalID: 1946553386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_26
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 510
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bf72a0dfad55944ad727e2c8796a54
+      internalID: -1202299600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_27
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 510
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f3c0e63723b074699ba72e07314c45
+      internalID: -55317608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18441d940f9c5f2429dd328453b748bb
+      internalID: -90704390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_29
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 340
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687a1aecd3fbfd34ea8dac4982bbc449
+      internalID: -1668349043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_30
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 340
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e744d69ee1410c4e9b36c28d11ef818
+      internalID: -1444145308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_31
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 340
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0df568c9c6f34842b1cfc904db0f40c
+      internalID: 1452575885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_32
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 340
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141a4b90eb514db4ab09e39d6b9e8aee
+      internalID: -752974785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_33
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 340
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431ee108d9ce6bf43a19218583e395d4
+      internalID: 1751447862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_34
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 340
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589dbd675485aed4b9dec29c3bd37380
+      internalID: -835478832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 170
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610f41cb11c46e84d8dd150f488cd6f0
+      internalID: 1298708466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_36
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 170
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4a9473adda6ed43a7f115feb655a24
+      internalID: 1075530546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_37
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 170
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070863200f8943e40bb48dbb2fa7cb2a
+      internalID: 1127660994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_38
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 170
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc50aac07f46f0749970896a60456222
+      internalID: -610967787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_39
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 170
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4838bee5c205622439e0d345445ac78e
+      internalID: -199529493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_40
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 170
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b10a73739b7884dbe0eca118484822
+      internalID: -274292432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_41
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 170
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448d67c952341c0448427c16de7f810a
+      internalID: 614689320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e6aba5214b2f14dbc5ff873e6c71bb
+      internalID: -1470699659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_43
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 0
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bac3eddd27638140813868a5792e0a9
+      internalID: -2001629431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_44
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 0
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f689a60a0a3699944b95ed40718875fc
+      internalID: -1069293856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_45
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 0
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf4f8e6441e53243a7bcd1cf39b0d58
+      internalID: -1066437446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_46
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 0
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8bb0fc3577bfca43a16219d1d44e439
+      internalID: 862093224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_47
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 0
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5089450ae445c2244bfe443f707bdcd8
+      internalID: -255801204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCuadro2_LuisArt_48
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 0
+        width: 149
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb6a21f7346512418e1a1fb07d57f4a
+      internalID: 792089104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: df9b6248931e08641a9b54cee8faf56d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AnimacionCuadro2_LuisArt_0: 1716706808818818889
+      AnimacionCuadro2_LuisArt_1: -39662999
+      AnimacionCuadro2_LuisArt_10: -96094168
+      AnimacionCuadro2_LuisArt_11: 1181307047
+      AnimacionCuadro2_LuisArt_12: -1154374850
+      AnimacionCuadro2_LuisArt_13: 1944575814
+      AnimacionCuadro2_LuisArt_14: 1666731084
+      AnimacionCuadro2_LuisArt_15: 337613538
+      AnimacionCuadro2_LuisArt_16: -286526951
+      AnimacionCuadro2_LuisArt_17: 1486476752
+      AnimacionCuadro2_LuisArt_18: 1638179289
+      AnimacionCuadro2_LuisArt_19: -2078001888
+      AnimacionCuadro2_LuisArt_2: -1893915834
+      AnimacionCuadro2_LuisArt_20: -346710443
+      AnimacionCuadro2_LuisArt_21: -1577801598
+      AnimacionCuadro2_LuisArt_22: -1731523581
+      AnimacionCuadro2_LuisArt_23: -12278179
+      AnimacionCuadro2_LuisArt_24: 222528185
+      AnimacionCuadro2_LuisArt_25: 1946553386
+      AnimacionCuadro2_LuisArt_26: -1202299600
+      AnimacionCuadro2_LuisArt_27: -55317608
+      AnimacionCuadro2_LuisArt_28: -90704390
+      AnimacionCuadro2_LuisArt_29: -1668349043
+      AnimacionCuadro2_LuisArt_3: 897048603
+      AnimacionCuadro2_LuisArt_30: -1444145308
+      AnimacionCuadro2_LuisArt_31: 1452575885
+      AnimacionCuadro2_LuisArt_32: -752974785
+      AnimacionCuadro2_LuisArt_33: 1751447862
+      AnimacionCuadro2_LuisArt_34: -835478832
+      AnimacionCuadro2_LuisArt_35: 1298708466
+      AnimacionCuadro2_LuisArt_36: 1075530546
+      AnimacionCuadro2_LuisArt_37: 1127660994
+      AnimacionCuadro2_LuisArt_38: -610967787
+      AnimacionCuadro2_LuisArt_39: -199529493
+      AnimacionCuadro2_LuisArt_4: 82767415
+      AnimacionCuadro2_LuisArt_40: -274292432
+      AnimacionCuadro2_LuisArt_41: 614689320
+      AnimacionCuadro2_LuisArt_42: -1470699659
+      AnimacionCuadro2_LuisArt_43: -2001629431
+      AnimacionCuadro2_LuisArt_44: -1069293856
+      AnimacionCuadro2_LuisArt_45: -1066437446
+      AnimacionCuadro2_LuisArt_46: 862093224
+      AnimacionCuadro2_LuisArt_47: -255801204
+      AnimacionCuadro2_LuisArt_48: 792089104
+      AnimacionCuadro2_LuisArt_5: -442943512
+      AnimacionCuadro2_LuisArt_6: -1438124369
+      AnimacionCuadro2_LuisArt_7: 270027679
+      AnimacionCuadro2_LuisArt_8: 1064032391
+      AnimacionCuadro2_LuisArt_9: -1804170306
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
